@@ -1,3 +1,17 @@
+# how to run
+
+step 1 : npm i
+step 2 : add env file(.env)
+step 3 : add variables in env for
+
+    PORT=4000
+    DB_CONNECT //db url
+    TOKEN_SECRET // token secret 
+
+step 4: npm start
+
+
+
 # curl user register
 
 curl --location --request POST 'localhost:4000/user/register' \
